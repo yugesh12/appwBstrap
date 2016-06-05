@@ -57,6 +57,7 @@ group :development do
   gem 'web-console', '~> 2.0'
   gem 'capistrano', '~> 3.4'
   gem 'capistrano-rails', '~> 1.1.3'
+  gem 'capistrano-passenger'
 
 # Add this if you're using rbenv
   gem 'capistrano-rbenv', '~> 2.0.3'
