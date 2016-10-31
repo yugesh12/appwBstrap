@@ -99,7 +99,10 @@ body {
     text-align: right;
 }
 
-
+.mp{
+    margin: 0; 
+    padding: 0;
+}
 /***********************************************************
 ************************************************************
 ***********************************************************
@@ -138,9 +141,10 @@ body {
 }
 
 .wrapper_inner_contact{
-    width: 100%;
-    max-width: 70em;
-    margin: 0 auto;  
+    width: 90%;
+    max-width: 95em;
+    margin: 0 auto;
+    padding-bottom: 5em;  
     padding-top: 5em;
 }
 
@@ -247,7 +251,11 @@ li#contact2:hover{
     background-color: orange;
 }
 
-li#naam a:hover{
+.silverHover a:hover{
+    color: silver !important;
+}
+
+.silverHover:hover{
     color: silver !important;
 }
 
@@ -285,7 +293,6 @@ ul#right{
     letter-spacing: 0.03em;
     font-size: 1.7em;
     border-width: thin;
-
     position: absolute;
     top: 50%;
     -webkit-transform: translateY(-50%);
@@ -538,6 +545,10 @@ div.black_box:hover{
     z-index: -1;
 }
 
+.overlay_figure:hover{
+    background-color: white;
+    opacity: 0.7;
+}
 
 
 
@@ -552,6 +563,7 @@ div#overlay_video {
     left: 0px;
     text-align: center;
 }
+
 div#videoBox {
     display: none;
     position: fixed;
@@ -559,13 +571,20 @@ div#videoBox {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 30em; 
-    height: auto;
     background: transparent;
     color: #000;
+    width: 100%;
+    padding-bottom: 56.25%;
+    padding-top: 35px;
+    height: 0;
+    overflow: hidden;
 }
 
-
+iframe{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
 /******************************************************
 ******************************************************
 *******************************************************
@@ -589,6 +608,10 @@ div#videoBox {
 .down_arrow figure{
     height:100%;
     width:100%;
+}
+
+.normal_blog{
+    margin-bottom: 10em;
 }
 
 .fixed_blog{
@@ -626,12 +649,15 @@ hr {
 
 
 .lees_meer{
-    color: black;
     font-weight: 500; 
     color: #3399cc;
     font-size: 1.2em;
     position: absolute;
     padding: 3% 2.4% 3% 0%;
+}
+
+.lees_meer:hover{
+    color: #2979a0;
 }
 
 .blog_preview{
@@ -654,11 +680,12 @@ hr {
 
 .subform_wrapper{
 
-    width: 100%;
+    margin: 0 auto;
+    width: 85%;
 }
 
 .subform_contianer{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -753,6 +780,7 @@ hr {
     width: 100%;
     max-width: 160em;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .user_avatar{
@@ -827,7 +855,7 @@ hr {
 }
 
 
-.overlay_select{
+.overlay_select2{
     background-color: white;
     width: 100%;
     height: 100%;
@@ -837,7 +865,7 @@ hr {
 }
 
 
-.overlay_select:hover{
+.overlay_select2:hover{
     opacity: 0.1;
 }
 
@@ -853,13 +881,13 @@ hr {
 
 .figure_multiple{
     height: 25em;
-    width: 35em;
+    width: 100%;
     margin: 0 auto;
 }
 
 .subtitle_multiple{
     height: 10em;
-    width: 35em;
+    width: 100%;
     background-color: #d3d3d3;
     margin: 0 auto;
     position: relative;
@@ -870,13 +898,14 @@ hr {
 }
 
 .wrap_stories{
-    max-width: 110em;
     width: 100%;
     margin: 0 auto;
+    padding-bottom: 8em;
 }
 
 .max_full_width{
     max-width: 100%;
+    margin: 0 auto;
 }
 
 .index_story_title{
@@ -911,4 +940,74 @@ hr {
 
 .navbar-toggle {
      z-index:8;
+}
+
+
+#menutoggle{
+    font-size: 2.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 7%;
+}
+
+#footer{
+    background-color: black;
+    overflow: hidden;
+    padding-bottom: 2em;
+}
+
+.footeritem{
+    text-align: center;
+}
+
+
+.footerlist{
+    position: relative;
+    top: 2em;
+}
+
+.footerlist li{
+    font-size: 1.5em;
+    font-weight: 400;
+    padding: 0.5em 0 0.5em 0;
+}
+
+#wrapper_inner_footer{
+    width: 90%;
+    max-width: 95em;
+    margin: 0 auto;     
+}
+
+.articles_body{
+    background-color: white;
+}
+
+.stories_body{
+    background-color: white;
+}
+
+.articles_a div li a{
+    color: black !important;
+}
+
+.stories_a div li a{
+    color: black !important;
+}
+
+.phoneh1{
+    font-size: 300%;
+}
+
+.phoneh2{
+    font-size: 500%;
+}
+
+.phonearrow{
+    position: absolute;
+    bottom: 4%;
 }

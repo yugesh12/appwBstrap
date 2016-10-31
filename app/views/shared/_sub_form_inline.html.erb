@@ -1,0 +1,20 @@
+           
+
+
+<div class="subform_container">
+ <%= form_for :subscription, url: subscribe_path do |subscribe_form| %>
+                        
+
+        <span class="inline">
+        <%= subscribe_form.label :name, 'Name:'%><br>
+        <%= subscribe_form.text_field :name, class: "black" %><br>
+		</span>                
+       	
+       	<span class="inline">                
+       	<%= subscribe_form.label :email, 'E-mail:'%><br>
+        <%= subscribe_form.text_field :email, class: "black" %><br>
+        </span>                             
+        <%= subscribe_form.submit "Send", class: "black" %><br>
+                      
+            <% end %>
+</div>

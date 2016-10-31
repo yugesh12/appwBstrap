@@ -19,27 +19,29 @@
 
 $(document).ready(function () {
 
-    var menu = $('.navbar');
+    var menu = $('.navbar-fixed-top');
     var origOffsetY = menu.offset().top;
 
-    jQuery(".navbar").wrapInner('<div class="nav-inner"</div>')
+    jQuery(".navbar-fixed-top").wrapInner('<div class="nav-inner"</div>')
 
     function scroll() {
         if ($(window).scrollTop() > origOffsetY) {
-            $('.navbar').addClass('sticky');
+            $('.navbar-fixed-top').addClass('sticky');
         } 
         
         else if($(window).scrollTop() == origOffsetY) {
-         $('.navbar').removeClass('sticky');
+         $('.navbar-fixed-top').removeClass('sticky');
         $('nav a').css("color", "black");
     
         }
 
         else {
-            $('.navbar').removeClass('sticky');
+            $('.navbar-fixed-top').removeClass('sticky');
         }
 
     }
+
+            
 
     document.onscroll = scroll;
     

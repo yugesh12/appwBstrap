@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   devise_for :users
-  get 'pages/home'
+  get 'pages/home', to: redirect('/')
   get 'pages/over_ons'
   get 'contact', to: 'messages#new', as: 'contact'
   post 'contact', to: 'messages#create'

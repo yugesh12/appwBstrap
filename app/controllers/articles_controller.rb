@@ -12,6 +12,7 @@ class ArticlesController < ApplicationController
 
 	def index
 		@articles = Article.order(created_at: :desc).search(params[:search]).page(params[:page]).per(5)
+		@bgc = 'bgw'
 	end
 
 
