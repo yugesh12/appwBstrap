@@ -7,7 +7,10 @@
 </div>
 
     <article class="wrapper_home_landing container_fluid">
-        <div class="overlay_black"></div>      
+        <div  class="overlay_black" style="opacity: 0.4">
+        </div>      
+        <div class="overlay_img_big hidden-xs"></div>
+        <div class="overlay_img_small hidden-lg hidden-md hidden-sm"></div>
 
         <div class="row container_home_landing place_middle">
             <div class="col-lg-6 col-md-9 col-sm-10 hidden-xs col-centered">
@@ -74,11 +77,11 @@
         <div class="col-12 wrapper_inner">
 
             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <h2 class="white">Artikel titel</h2>
+                    <h2 class="white"><%= @article_last.title%></h2>
                     <br><br>
                     <p class="tekst white">
 
-                        Tekst van het artikel<br><br>
+                        <%= @article_last.content%><br><br>
 
                     </p>
                     <br><br>
