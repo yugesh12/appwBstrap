@@ -575,15 +575,23 @@ div#videoBox {
     color: #000;
     width: 100%;
     padding-bottom: 56.25%;
-    padding-top: 35px;
     height: 0;
-    overflow: hidden;
 }
 
 iframe{
     position: absolute;
     width: 100%;
     height: 100%;
+}
+
+.closeBut{
+    background-color: transparent;
+    border-style: none;
+}
+
+.closeIMG{
+    width: 2em;
+    height: 2em;
 }
 /******************************************************
 ******************************************************
