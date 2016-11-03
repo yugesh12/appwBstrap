@@ -13,7 +13,7 @@ html, body {height: 100%;}
 
 
 body {    
-    background-color: black;
+    background-color: white;
     color: black;
     line-height: 1.5em;
     font-family: 'Ek Mukta';
@@ -117,8 +117,6 @@ body {
     width: 100%;
 }
 
-
-
 .wrapper_home_landing{
     height: 100%;
     position: relative;
@@ -141,7 +139,6 @@ body {
     width: 90%;
     max-width: 135em;
     margin: 0 auto;  
-    padding-top: 10em;
 }
 
 .wrapper_inner_contact{
@@ -163,16 +160,15 @@ body {
 }
 
 #wrapper_diensten{
-    padding: 0 0 10em 0;
     position: relative;
     width: 100%;
+    background-color: #FAF8F7;
+    padding-bottom: 8em;
 }
 
-.wrapper_home{
-    padding: 10em 0 10em 0;
+#wrapper_over_ons{
+    background-color: #FAF8F7;
 }
-
-
 
 
 
@@ -226,8 +222,6 @@ nav a {
 
 
 li#contact{
-    color:orange;
-    border-style: solid;
     padding: 0 0.8em 0 0.8em;
     font-weight: 400;
 } 
@@ -283,16 +277,10 @@ ul#middle{
     letter-spacing: 0.07em;
     font-size: 1.7em;
     font-weight: 400;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
 }
 
 ul#right{
-    font-weight: 200;
+    font-weight: 300;
     text-transform: uppercase;
     letter-spacing: 0.03em;
     font-size: 1.7em;
@@ -477,8 +465,36 @@ div.white_box:hover{
     border-color: black
 }
 
-.black_box a.link_tekst{
-    color: black;
+.black_box a.link_tekst1{
+    color: black!important;
+}
+
+.black_box a.link_tekst2{
+    color: black!important;
+}
+
+.black_box a.link_tekst3{
+    color: black!important;
+}
+
+.black_box a.link_tekst4{
+    color: black!important;
+}
+
+.black_box a.link_tekst1:hover{
+    color: white!important;
+}
+
+.black_box a.link_tekst2:hover{
+    color: white!important;
+}
+
+.black_box a.link_tekst3:hover{
+    color: white!important;
+}
+
+.black_box a.link_tekst4:hover{
+    color: white!important;
 }
 
 div.black_box:hover{
@@ -501,12 +517,20 @@ div.black_box:hover{
 }
 
 
-
-.link_tekst{
+.link_tekst1{
 
     padding: 1em 1em 1em 0.25em;
 }
 
+.link_tekst2{
+
+    padding: 1em 1em 1em 0.25em;
+}
+
+.link_tekst3{
+
+    padding: 1em 1em 1em 0.25em;
+}
 
 /******************************************************
 ******************************************************
@@ -520,13 +544,13 @@ div.black_box:hover{
     background-color: black;
     width: inherit;
     height: inherit;
-    opacity: 0.8;
+    opacity: 0.4;
     position: absolute;
     z-index: -1;
 
 }
 
-.overlay_img_big{
+.overlay_img{
     width: inherit;
     height: inherit;
     position: absolute;
@@ -538,26 +562,12 @@ div.black_box:hover{
     background-attachment: fixed;
 }
 
-.overlay_img_small{
-    width: inherit;
-    height: inherit;
-    position: absolute;
-    z-index: -2;
-    background-image: image-url('ipadhome2.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center;
-    background-attachment: fixed;
-}
 
-
-
-
-.overlay_white{
-    background-color: white;
+.overlay_tint{
+    background-color: black;
     width: 100%;
     height: 100%;
-    opacity: 0.95;
+    opacity: 0.07;
     position: absolute;
     z-index: -1;
 }
@@ -1045,4 +1055,27 @@ hr {
 .phonearrow{
     position: absolute;
     bottom: 4%;
+}
+
+.wrap_content_inner{
+    padding: 5em 0 5em 0;
+}
+
+
+
+@media (max-width: 767px){
+body{
+    font-size: 0.85em;
+}
+.overlay_img{
+    background-image: image-url('ipadhome2.jpg'); 
+}
+.wrapper_home{
+    padding: 0em 0 5em 0;
+}
+
+
+.col-dienst{
+    padding: 2em 0 2.8em 0;
+}
 }
