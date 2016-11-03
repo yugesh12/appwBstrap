@@ -531,7 +531,7 @@ div.black_box:hover{
     height: inherit;
     position: absolute;
     z-index: -2;
-    background-image: url('/app/assets/images/ipadhome.jpg'); 
+    background-image: image-url('ipadhome.jpg'); 
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
@@ -543,7 +543,7 @@ div.black_box:hover{
     height: inherit;
     position: absolute;
     z-index: -2;
-    background-image: url('ipadhome2.jpg'); 
+    background-image: image-url('ipadhome2.jpg'); 
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
