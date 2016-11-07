@@ -73,44 +73,61 @@ body {
   height: 100%;
 }
 
-/* line 70, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 69, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.full_size_img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 74, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.full_size_img {
+  height: inherit;
+  width: auto;
+}
+
+/* line 79, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .clearfix {
   clear: both;
 }
 
-/* line 76, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 85, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .full_width {
   width: 98.5%;
 }
 
-/* line 80, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 89, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.full_width {
+  width: 100%;
+}
+
+/* line 93, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .row1 {
   width: 49.5%;
   display: inline-block;
 }
 
-/* line 85, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 98, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .radio_buttons {
   display: inline-block;
 }
 
-/* line 89, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 102, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .inline {
   display: inline-block;
 }
 
-/* line 93, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 106, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .althead {
   font-style: italic;
   text-align: center;
 }
 
-/* line 99, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 112, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .alignright {
   text-align: right;
 }
 
-/* line 103, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 116, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .mp {
   margin: 0;
   padding: 0;
@@ -123,38 +140,32 @@ body {
 ***********************************************************
 ************************************************************
 ***********************************************************/
-/* line 116, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 129, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .wrapper_home {
   position: relative;
   width: 100%;
 }
 
-/* line 121, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 134, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .wrapper_home_landing {
   height: 100%;
   position: relative;
   width: 100%;
-  /*background-image: url('ipadhome.jpg'); 
-  background-repeat: no-repeat;
-  background-size: cover; 
-  background-position: center center;
-  background-attachment: fixed;*/
 }
 
-/* line 133, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 140, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .container_home_landing {
   position: relative;
   width: inherit;
 }
 
-/* line 139, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 146, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .wrapper_inner {
-  width: 90%;
-  max-width: 135em;
+  width: 100%;
   margin: 0 auto;
 }
 
-/* line 145, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 152, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .wrapper_inner_contact {
   width: 90%;
   max-width: 95em;
@@ -163,7 +174,7 @@ body {
   padding-top: 5em;
 }
 
-/* line 154, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 161, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .place_middle {
   position: absolute;
   left: 50%;
@@ -173,36 +184,52 @@ body {
   transform: translate(-50%, -50%);
 }
 
-/* line 163, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 170, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 #wrapper_diensten {
   position: relative;
   width: 100%;
-  background-color: #FAF8F7;
   padding-bottom: 8em;
 }
 
-/* line 170, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-#wrapper_over_ons {
-  background-color: #FAF8F7;
-}
-
-/* line 176, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 179, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .wrapper_alt_landing {
   height: 50%;
   position: relative;
   width: 100%;
 }
 
-/* line 182, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 185, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .col-centered {
   float: none;
   margin: 0 auto;
 }
 
-/* line 188, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 191, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .col-dienst {
   text-align: center;
   padding: 4.5em 0 5em 0;
+}
+
+/* line 198, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.wrapper_inner_blog {
+  overflow: hidden;
+}
+
+/* line 202, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.wrapper_inner_blog figure {
+  height: 35em;
+}
+
+/* line 206, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.wrap_hor {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* line 211, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.wrap_vert {
+  padding-top: 10%;
+  padding-bottom: 10%;
 }
 
 /***********************************************************
@@ -212,7 +239,7 @@ body {
 ***********************************************************
 ************************************************************
 ***********************************************************/
-/* line 200, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 222, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .navbar {
   margin-bottom: 0;
   background-color: transparent;
@@ -220,29 +247,29 @@ body {
   border-style: none;
 }
 
-/* line 209, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 231, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 nav a {
   color: white !important;
 }
 
-/* line 214, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 236, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .sticky {
   background: #fefefe;
   opacity: 0.95;
 }
 
-/* line 219, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 241, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .sticky a {
   color: black !important;
 }
 
-/* line 225, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 247, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 li#contact {
   padding: 0 0.8em 0 0.8em;
   font-weight: 400;
 }
 
-/* line 232, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 254, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 li#contact:hover {
   border-style: black;
   padding: 0 0.8em 0 0.8em;
@@ -250,7 +277,7 @@ li#contact:hover {
   background-color: orange;
 }
 
-/* line 239, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 261, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 li#contact2 {
   border-color: orange;
   border-style: solid;
@@ -259,24 +286,24 @@ li#contact2 {
   background-color: orange;
 }
 
-/* line 247, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 269, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 li#contact2:hover {
   padding: 0 0.8em 0 0.8em;
   font-weight: 400;
   background-color: orange;
 }
 
-/* line 253, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 275, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .silverHover a:hover {
   color: silver !important;
 }
 
-/* line 257, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 279, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .silverHover:hover {
   color: silver !important;
 }
 
-/* line 261, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 283, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 li#diensten a:hover, li#leer a:hover, li#nieuw a:hover, li#Verhalen a:hover {
   color: orange !important;
   border-top: solid;
@@ -284,7 +311,7 @@ li#diensten a:hover, li#leer a:hover, li#nieuw a:hover, li#Verhalen a:hover {
   padding-top: 0.7em;
 }
 
-/* line 270, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 292, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .navbar-brand {
   font-size: 4.2em;
   font-weight: 600;
@@ -292,14 +319,14 @@ li#diensten a:hover, li#leer a:hover, li#nieuw a:hover, li#Verhalen a:hover {
   letter-spacing: 0.04em;
 }
 
-/* line 277, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 299, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 ul#middle {
   letter-spacing: 0.07em;
   font-size: 1.7em;
   font-weight: 400;
 }
 
-/* line 283, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 305, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 ul#right {
   font-weight: 300;
   text-transform: uppercase;
@@ -314,13 +341,31 @@ ul#right {
   right: 4em;
 }
 
-/* line 297, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 319, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 ul#left {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
+}
+
+/* line 330, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.navbar-toggle {
+  z-index: 8;
+}
+
+/* line 335, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+#menutoggle {
+  font-size: 2.5em;
+  font-weight: 400;
+  text-transform: uppercase;
+  position: absolute;
+  top: 45%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 7%;
 }
 
 /******************************************************
@@ -330,7 +375,7 @@ ul#left {
 ******************************************************
 ******************************************************
 *******************************************************/
-/* line 319, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 357, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 h1 {
   font-size: 4.7em;
   font-weight: 600;
@@ -339,55 +384,57 @@ h1 {
   line-height: 1.1em;
 }
 
-/* line 327, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 365, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 h2 {
-  font-size: 6em;
-  font-weight: 200;
-  line-height: 0.9em;
+  font-size: 3.5em;
+  font-weight: 500;
+  line-height: 0.23em;
   letter-spacing: 0.001em;
+  text-transform: uppercase;
 }
 
-/* line 334, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 373, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 h3 {
   font-size: 3em;
   line-height: 1em;
   font-weight: 300;
 }
 
-/* line 342, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 380, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .h3_diensten {
   text-transform: uppercase;
 }
 
-/* line 346, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 384, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 h4 {
   font-size: 2em;
   font-style: italic;
 }
 
-/* line 351, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 389, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 h5 {
-  font-size: 2.5em;
+  font-size: 2em;
+  font-weight: 400;
 }
 
-/* line 355, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 394, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 h6 {
   color: #3399cc;
   font-size: 2em;
 }
 
-/* line 360, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 399, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .tagline {
   display: inline-block;
   margin-right: 0.25em;
 }
 
-/* line 365, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 404, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 #tagline2 {
   margin: 0 0.25em 0 0.25;
 }
 
-/* line 372, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 411, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 p {
   font-size: 1.9em;
   letter-spacing: 0.015em;
@@ -395,7 +442,7 @@ p {
   line-height: 1.3em;
 }
 
-/* line 379, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 418, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 p.klein {
   font-size: 1.7em;
   letter-spacing: 0.01em;
@@ -403,24 +450,40 @@ p.klein {
   line-height: 1.1em;
 }
 
-/* line 387, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 426, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 p.tekst {
   font-weight: 300;
-  font-size: 2em;
+  font-size: 1.8em;
   letter-spacing: 0.04em;
   line-height: 1em;
 }
 
-/* line 394, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 433, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 p.titel_tekst {
   font-size: 1.8em;
   line-height: 1.6em;
   letter-spacing: 0.05em;
 }
 
-/* line 401, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 440, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .contact_p {
   font-size: 1.3em;
+}
+
+/* line 445, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+figure {
+  overflow: hidden;
+}
+
+/* line 450, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+hr {
+  border: none;
+  height: 0.3em;
+  /* Set the hr color */
+  color: #333;
+  /* old IE */
+  background-color: #333;
+  /* Modern Browsers */
 }
 
 /******************************************************
@@ -430,15 +493,25 @@ p.titel_tekst {
 ******************************************************
 ******************************************************
 *******************************************************/
-/* line 414, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 467, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 a {
   color: white;
 }
 
-/* line 420, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 473, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 a:hover {
   color: white;
   text-decoration: none;
+}
+
+/* line 480, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.articles_a div li a {
+  color: black !important;
+}
+
+/* line 484, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.stories_a div li a {
+  color: black !important;
 }
 
 /******************************************************
@@ -448,7 +521,7 @@ a:hover {
 ******************************************************
 ******************************************************
 *******************************************************/
-/* line 438, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 499, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .box {
   border-style: solid;
   border-width: thin;
@@ -458,7 +531,7 @@ a:hover {
   text-align: center;
 }
 
-/* line 447, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 508, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .box a {
   font-size: 1.7em;
   font-weight: 500;
@@ -466,69 +539,69 @@ a:hover {
   display: inline-block;
 }
 
-/* line 455, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 516, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .white_box {
   border-color: white;
 }
 
-/* line 459, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 520, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 div.white_box:hover {
   background-color: red;
   border-style: none;
 }
 
-/* line 465, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 526, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box {
   border-color: black;
 }
 
-/* line 469, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 530, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box a.link_tekst1 {
   color: black !important;
 }
 
-/* line 473, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 534, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box a.link_tekst2 {
   color: black !important;
 }
 
-/* line 477, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 538, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box a.link_tekst3 {
   color: black !important;
 }
 
-/* line 481, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 542, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box a.link_tekst4 {
   color: black !important;
 }
 
-/* line 485, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 546, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box a.link_tekst1:hover {
   color: white !important;
 }
 
-/* line 489, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 550, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box a.link_tekst2:hover {
   color: white !important;
 }
 
-/* line 493, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 554, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box a.link_tekst3:hover {
   color: white !important;
 }
 
-/* line 497, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 558, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .black_box a.link_tekst4:hover {
   color: white !important;
 }
 
-/* line 501, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 562, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 div.black_box:hover {
   background-color: black;
   border-style: none;
 }
 
-/* line 507, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 568, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .box_home_landing {
   width: 15em;
   position: relative;
@@ -536,25 +609,48 @@ div.black_box:hover {
   height: 4.7em;
 }
 
-/* line 515, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 576, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .pijl {
   padding: 1em 0.25em 1em 1em;
   color: red;
 }
 
-/* line 521, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 582, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .link_tekst1 {
   padding: 1em 1em 1em 0.25em;
 }
 
-/* line 526, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 587, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .link_tekst2 {
   padding: 1em 1em 1em 0.25em;
 }
 
-/* line 531, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 592, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .link_tekst3 {
   padding: 1em 1em 1em 0.25em;
+}
+
+/* line 599, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.down_arrow {
+  position: absolute;
+  z-index: 2;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  bottom: 7%;
+}
+
+/* line 609, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.down_arrow figure {
+  height: 100%;
+  width: 100%;
+}
+
+/* line 614, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.phonearrow {
+  position: absolute;
+  bottom: 4%;
 }
 
 /******************************************************
@@ -564,7 +660,17 @@ div.black_box:hover {
 ******************************************************
 ******************************************************
 *******************************************************/
-/* line 544, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 626, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.bgt1 {
+  background-color: #fcfcfb;
+}
+
+/* line 630, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.bgt2 {
+  background-color: #fdfdfc;
+}
+
+/* line 634, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .overlay_black {
   background-color: black;
   width: inherit;
@@ -574,7 +680,7 @@ div.black_box:hover {
   z-index: -1;
 }
 
-/* line 554, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 644, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .overlay_img {
   width: inherit;
   height: inherit;
@@ -587,7 +693,20 @@ div.black_box:hover {
   background-attachment: fixed;
 }
 
-/* line 567, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 656, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.overlay_img_diensten {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  z-index: -2;
+  background-image: url(/assets/fonaedit-447a6b79103de2450d07db3f9931dbc90f96072d4c2dde638af56d22d1da5259.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/* line 668, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .overlay_tint {
   background-color: black;
   width: 100%;
@@ -597,7 +716,7 @@ div.black_box:hover {
   z-index: -1;
 }
 
-/* line 577, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 678, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .overlay_red {
   background-color: red;
   width: inherit;
@@ -607,13 +726,13 @@ div.black_box:hover {
   z-index: -1;
 }
 
-/* line 586, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 687, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .overlay_figure:hover {
   background-color: white;
   opacity: 0.7;
 }
 
-/* line 593, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 694, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 div#overlay_video {
   display: none;
   z-index: 3;
@@ -626,7 +745,7 @@ div#overlay_video {
   text-align: center;
 }
 
-/* line 605, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 706, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 div#videoBox {
   display: none;
   position: fixed;
@@ -641,20 +760,20 @@ div#videoBox {
   height: 0;
 }
 
-/* line 619, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 720, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 iframe {
   position: absolute;
   width: 100%;
   height: 100%;
 }
 
-/* line 625, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 726, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .closeBut {
   background-color: transparent;
   border-style: none;
 }
 
-/* line 630, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 731, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .closeIMG {
   width: 2em;
   height: 2em;
@@ -667,70 +786,27 @@ iframe {
 ******************************************************
 ******************************************************
 *******************************************************/
-/* line 644, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.down_arrow {
-  position: absolute;
-  z-index: 2;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%);
-  bottom: 7%;
-}
-
-/* line 654, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.down_arrow figure {
-  height: 100%;
-  width: 100%;
-}
-
-/* line 659, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 747, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .normal_blog {
   margin-bottom: 10em;
 }
 
-/* line 663, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 751, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .fixed_blog {
   position: fixed;
 }
 
-/* line 667, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-figure {
-  overflow: hidden;
-}
-
-/* line 672, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.wrapper_inner_blog {
-  overflow: hidden;
-}
-
-/* line 676, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.wrapper_inner_blog figure {
-  height: 35em;
-}
-
-/* line 680, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-hr {
-  border: none;
-  height: 0.3em;
-  /* Set the hr color */
-  color: #333;
-  /* old IE */
-  background-color: #333;
-  /* Modern Browsers */
-}
-
-/* line 688, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 756, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .blog_titel {
   font-weight: 500;
 }
 
-/* line 692, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 760, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .blog_tag {
   font-size: 3em;
 }
 
-/* line 697, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 765, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .lees_meer {
   font-weight: 500;
   color: #3399cc;
@@ -739,50 +815,30 @@ hr {
   padding: 3% 2.4% 3% 0%;
 }
 
-/* line 705, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 773, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .lees_meer:hover {
   color: #2979a0;
 }
 
-/* line 709, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 777, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .blog_preview {
   font-weight: 600;
   font-size: 2.2em;
 }
 
-/* line 714, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.bg_Content {
-  background-color: green;
-}
-
-/* line 718, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.bg_SMA {
-  background-color: blue;
-}
-
-/* line 723, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.bgb {
-  background-color: black;
-}
-
-/* line 727, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 782, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .subform_wrapper {
   margin: 0 auto;
   width: 85%;
 }
 
-/* line 733, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 788, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .subform_contianer {
   width: 70%;
   margin: 0 auto;
 }
 
-/* line 738, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.full_width {
-  width: 100%;
-}
-
-/* line 742, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 794, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .fixed_blog h1 {
   font-weight: 800;
   font-size: 6em;
@@ -791,14 +847,14 @@ hr {
   padding: 0.1em 0.3em 0 0;
 }
 
-/* line 752, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 804, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .social_links {
   width: 100%;
   max-width: 30em;
   margin: 0 auto;
 }
 
-/* line 758, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 810, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .sm_list {
   display: inline-block;
   width: 24.4%;
@@ -806,7 +862,7 @@ hr {
   margin-top: 0.5em;
 }
 
-/* line 765, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 817, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .sm_button_bw {
   border-style: none;
   background-color: transparent;
@@ -814,32 +870,32 @@ hr {
   height: 100%;
 }
 
-/* line 772, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 824, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .sm_button_bw a {
   width: 100%;
   height: 100%;
 }
 
-/* line 777, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 829, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .sm_button_bw img {
   height: 100%;
   width: 100%;
 }
 
-/* line 783, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 835, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .fixed_blog h2 {
   text-transform: uppercase;
   font-size: 3.7em;
   font-weight: 400;
 }
 
-/* line 789, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 841, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .must_read_container figure {
   height: 15em;
   background-color: red;
 }
 
-/* line 794, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 846, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .must_read_container h3 {
   text-align: center;
   font-size: 5em;
@@ -847,7 +903,7 @@ hr {
   margin-top: -0.05em;
 }
 
-/* line 804, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 856, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .container_content {
   width: 100%;
   max-width: 100em;
@@ -855,24 +911,24 @@ hr {
   height: 50em;
 }
 
-/* line 812, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 864, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .zm1 {
   z-index: -1;
 }
 
-/* line 816, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 868, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .zp1 {
   z-index: 1;
 }
 
-/* line 820, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 872, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .test_wrap {
   width: 100%;
   max-width: 130em;
   margin: 0 auto;
 }
 
-/* line 825, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 877, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .test_wrap2 {
   width: 100%;
   max-width: 160em;
@@ -880,23 +936,23 @@ hr {
   overflow: hidden;
 }
 
-/* line 832, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 884, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .user_avatar {
   height: 8em;
   width: 8em;
 }
 
-/* line 837, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 889, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .bold {
   font-weight: 700;
 }
 
-/* line 842, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 894, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .container_social_share {
   width: 2em;
 }
 
-/* line 846, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 898, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .back_cont {
   width: 100%;
   height: auto;
@@ -904,7 +960,7 @@ hr {
   overflow: hidden;
 }
 
-/* line 853, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 905, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .back_cont figure {
   height: auto;
   width: 100%;
@@ -912,37 +968,37 @@ hr {
   margin: 0 auto;
 }
 
-/* line 860, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 912, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .back_cont img {
   height: auto;
   width: 100%;
 }
 
-/* line 865, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 917, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .list_red:hover {
   color: red !important;
 }
 
-/* line 869, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 921, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .wrapper_article {
   background-color: white;
 }
 
-/* line 876, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 926, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .story_figuur {
   width: 100%;
   height: auto;
   position: relative;
 }
 
-/* line 882, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 932, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .story_figuur img {
   width: 100%;
   height: inherit;
   position: relative;
 }
 
-/* line 889, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 939, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .button_container {
   position: absolute;
   z-index: 2;
@@ -952,13 +1008,13 @@ hr {
   border-style: none;
 }
 
-/* line 898, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 948, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .play_icon1 {
   width: 20em;
   height: 20em;
 }
 
-/* line 904, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 954, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .overlay_select2 {
   background-color: white;
   width: 100%;
@@ -968,29 +1024,29 @@ hr {
   z-index: 1;
 }
 
-/* line 914, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 964, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .overlay_select2:hover {
   opacity: 0.1;
 }
 
-/* line 918, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 968, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .button_container:hover ~ .overlay_select {
   opacity: 0.2;
 }
 
-/* line 923, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 973, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .subscribe_container {
   margin-top: 5em;
 }
 
-/* line 928, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 978, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .figure_multiple {
   height: 25em;
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 934, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 984, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .subtitle_multiple {
   height: 10em;
   width: 100%;
@@ -999,162 +1055,133 @@ hr {
   position: relative;
 }
 
-/* line 942, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 992, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .container_story {
   margin-top: 2em;
 }
 
-/* line 946, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 996, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .wrap_stories {
   width: 100%;
   margin: 0 auto;
   padding-bottom: 8em;
 }
 
-/* line 952, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 1002, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .max_full_width {
   max-width: 100%;
   margin: 0 auto;
 }
 
-/* line 957, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 1007, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .index_story_title {
   margin-top: 0;
   font-size: 2em;
 }
 
-/* line 963, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 1013, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .blog_tag_multiple {
   text-align: center;
 }
 
-/*
-.navbar-collapse.collapse {
-  display: block!important;
-}
-
-.navbar-nav>li, .navbar-nav {
-  float: left !important;
-}
-
-.navbar-nav.navbar-right:last-child {
-  margin-right: -15px !important;
-}
-
-.navbar-right {
-  float: right!important;
-}
-*/
-/* line 987, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.navbar-toggle {
-  z-index: 8;
-}
-
-/* line 992, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-#menutoggle {
-  font-size: 2.5em;
-  font-weight: 400;
-  text-transform: uppercase;
-  position: absolute;
-  top: 45%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  right: 7%;
-}
-
-/* line 1004, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/***********************/
+/***********************/
+/************************/
+/* line 1024, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 #footer {
   background-color: black;
   overflow: hidden;
   padding-bottom: 2em;
 }
 
-/* line 1010, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 1030, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .footeritem {
   text-align: center;
 }
 
-/* line 1015, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 1035, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .footerlist {
   position: relative;
   top: 2em;
 }
 
-/* line 1020, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 1040, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 .footerlist li {
   font-size: 1.5em;
   font-weight: 400;
   padding: 0.5em 0 0.5em 0;
 }
 
-/* line 1026, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+/* line 1046, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
 #wrapper_inner_footer {
   width: 90%;
   max-width: 95em;
   margin: 0 auto;
 }
 
-/* line 1032, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.articles_body {
-  background-color: white;
+/* line 1055, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.affoe1 {
+  width: 40%;
 }
 
-/* line 1036, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.stories_body {
-  background-color: white;
+/* line 1059, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.affoe2 {
+  width: 60%;
+  vertical-align: middle;
+  padding: 10% 10% 10% 10%;
 }
 
-/* line 1040, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.articles_a div li a {
-  color: black !important;
-}
-
-/* line 1044, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.stories_a div li a {
-  color: black !important;
-}
-
-/* line 1048, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.phoneh1 {
-  font-size: 300%;
-}
-
-/* line 1052, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.phoneh2 {
-  font-size: 500%;
-}
-
-/* line 1056, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.phonearrow {
-  position: absolute;
-  bottom: 4%;
-}
-
-/* line 1061, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-.wrap_content_inner {
-  padding: 5em 0 5em 0;
+/* line 1066, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+.hrrood {
+  color: #880015;
+  background-color: #880015;
 }
 
 @media (max-width: 767px) {
-  /* line 1068, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  /* line 1072, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
   body {
     font-size: 0.85em;
   }
 
-  /* line 1071, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  /* line 1075, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
   .overlay_img {
     background-image: url(/assets/ipadhome2-8aa60c4db876f73230f18fa2c12e9604044760baf80afa50f3c8a388aa97ba7e.jpg);
   }
 
-  /* line 1074, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
-  .wrapper_home {
-    padding: 0em 0 5em 0;
+  /* line 1079, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  .overlay_img_diensten {
+    background-image: url(/assets/fonaedit3-7398b12c9e24b2660352e2a8722f672e4be294682fa93ae12c7386d501126c03.png);
   }
 
-  /* line 1079, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  /* line 1085, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
   .col-dienst {
     padding: 2em 0 2.8em 0;
+  }
+
+  /* line 1091, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  .full_size_img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* line 1096, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  .affoe1 {
+    width: 100%;
+  }
+
+  /* line 1099, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  .affoe2 {
+    width: 100%;
+  }
+
+  /* line 1103, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  .overlay_black {
+    opacity: 0.3;
+  }
+
+  /* line 1107, /home/yugesh/Sites/diqital_ol2/app/assets/stylesheets/application.css.scss */
+  .smallhome {
+    margin-top: 45em;
   }
 }
 /*
