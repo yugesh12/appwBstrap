@@ -19,11 +19,14 @@
 
         <div class="col-lg-6 col-md-7 col-sm-7 col-xs-11 col-lg-offset-1 col-md-offset-1 col-sm-offset-0 col-xs-offset-1">
             <% if user_signed_in? %>
-            <p><%= link_to 'Destroy', story_path(@story), method: :delete, data: { confirm: 'Are you sure?' }, class: "black" %>
+            <p class="pull-right">
+            <%= link_to 'Destroy', story_path(@story), method: :delete, data: { confirm: 'Are you sure?' }, class: "black" %>
+
             <%= link_to 'Edit', edit_story_path(@story), class: "black" %>
             <% end %>
 
             <%= link_to 'Back', stories_path, class: "black silverHover" %></p><br>
+
                 <h3 class="header_article"><%= @story.title %></h3><hr class="article_show_hr">
 
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
