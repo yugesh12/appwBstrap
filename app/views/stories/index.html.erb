@@ -2,7 +2,7 @@
 
 <div id="overlay_video"></div>
 <div id="videoBox">
-     <button class="closeBut" onmousedown="toggleOverlay()"><%= image_tag('closeIMG', class: "closeIMG")%></button><br>
+     <button class="closeBut" onmousedown="toggleOverlay()"><%= image_tag('closeIMG.png', class: "closeIMG")%></button><br>
      <iframe id="overlay_2068_player" src="https://www.youtube.com/embed/z5tugxy70MY" frameborder="0" allowfullscreen></iframe>  
 </div>
 
@@ -15,7 +15,7 @@
 
             <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12 overlay_figure" onmousedown="toggleOverlay()">
         
-                <button class="button_container "><%=image_tag('play_icon2', class: "play_icon1 place_middle")%></button>
+                <button class="button_container "><%=image_tag('play_icon2.png', class: "play_icon1 place_middle")%></button>
                 <figure class="story_figuur">
                 <%= image_tag @story_last.image.url(:large)%>
                 </figure>
