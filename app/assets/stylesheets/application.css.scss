@@ -65,6 +65,15 @@ body {
     height: 100%;
 }
 
+.full_size_img{
+    width: 100%;
+    height: auto;
+}
+
+.full_size_img{
+    height: inherit;
+    width: auto;
+}
 
 .clearfix{
     clear: both;
@@ -74,6 +83,10 @@ body {
 
 .full_width{
     width: 98.5%;
+}
+
+.full_width{
+    width: 100%;
 }
 
 .row1{
@@ -121,12 +134,6 @@ body {
     height: 100%;
     position: relative;
     width: 100%;
-
-    /*background-image: url('ipadhome.jpg'); 
-    background-repeat: no-repeat;
-    background-size: cover; 
-    background-position: center center;
-    background-attachment: fixed;*/
 }
 
 .container_home_landing{
@@ -136,9 +143,9 @@ body {
 
 
 .wrapper_inner{
-    width: 90%;
-    max-width: 135em;
+    width: 100%;
     margin: 0 auto;  
+
 }
 
 .wrapper_inner_contact{
@@ -162,13 +169,9 @@ body {
 #wrapper_diensten{
     position: relative;
     width: 100%;
-    background-color: #FAF8F7;
     padding-bottom: 8em;
 }
 
-#wrapper_over_ons{
-    background-color: #FAF8F7;
-}
 
 
 
@@ -187,6 +190,20 @@ body {
 .col-dienst{
     text-align: center;
     padding: 4.5em 0 5em 0;
+}
+
+
+
+.wrapper_inner_blog{
+    overflow: hidden;
+}
+
+.wrapper_inner_blog figure{
+    height: 35em;
+}
+
+.wrap_content_inner{
+    padding: 5em 0 5em 0;
 }
 
 /***********************************************************
@@ -304,6 +321,22 @@ ul#left{
 
 
 
+.navbar-toggle {
+     z-index:8;
+}
+
+
+#menutoggle{
+    font-size: 2.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+    position: absolute;
+    top: 45%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 7%;
+}
 
 /******************************************************
 ******************************************************
@@ -324,17 +357,17 @@ h1 {
 }
 
 h2 {
-    font-size: 6em;
-    font-weight: 200;
-    line-height: 0.9em;
+    font-size: 3.5em;
+    font-weight: 500;
+    line-height: 0.23em;
     letter-spacing: 0.001em;
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 3em; 
     line-height: 1em;
     font-weight: 300;
-
 }
 
 
@@ -385,7 +418,7 @@ p.klein{
 
 p.tekst{
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.8em;
     letter-spacing: 0.04em;
     line-height: 1em;
 }
@@ -399,6 +432,20 @@ p.titel_tekst{
 
 .contact_p{
     font-size: 1.3em;
+}
+
+
+figure{
+    overflow: hidden;
+
+}
+
+hr {
+    border: none;
+    height: 0.3em;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
 }
 
 /******************************************************
@@ -422,6 +469,14 @@ a:hover {
 }
 
 
+
+.articles_a div li a{
+    color: black !important;
+}
+
+.stories_a div li a{
+    color: black !important;
+}
 
 /******************************************************
 ******************************************************
@@ -532,6 +587,28 @@ div.black_box:hover{
     padding: 1em 1em 1em 0.25em;
 }
 
+
+
+.down_arrow{
+    position: absolute;
+    z-index: 2;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 7%;
+}
+
+.down_arrow figure{
+    height:100%;
+    width:100%;
+}
+
+.phonearrow{
+    position: absolute;
+    bottom: 4%;
+}
+
 /******************************************************
 ******************************************************
 *******************************************************
@@ -539,6 +616,13 @@ div.black_box:hover{
 ******************************************************
 ******************************************************
 *******************************************************/
+.bgt1{
+    background-color: #fcfcfb;;
+}
+
+.bgt2{
+    background-color: #fdfdfc;
+}
 
 .overlay_black{
     background-color: black;
@@ -562,6 +646,17 @@ div.black_box:hover{
     background-attachment: fixed;
 }
 
+.overlay_img_diensten{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    z-index: -2;
+    background-image: image-url('fonaedit.png'); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center center;
+    background-attachment: fixed;
+}
 
 .overlay_tint{
     background-color: black;
@@ -640,20 +735,7 @@ iframe{
 
 
 
-.down_arrow{
-    position: absolute;
-    z-index: 2;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%);
-    bottom: 7%;
-}
 
-.down_arrow figure{
-    height:100%;
-    width:100%;
-}
 
 .normal_blog{
     margin-bottom: 10em;
@@ -663,26 +745,6 @@ iframe{
     position: fixed;
 }
 
-figure{
-    overflow: hidden;
-
-}
-
-.wrapper_inner_blog{
-    overflow: hidden;
-}
-
-.wrapper_inner_blog figure{
-    height: 35em;
-}
-
-hr {
-    border: none;
-    height: 0.3em;
-    /* Set the hr color */
-    color: #333; /* old IE */
-    background-color: #333; /* Modern Browsers */
-}
 
 .blog_titel{
     font-weight: 500;
@@ -710,19 +772,6 @@ hr {
     font-size: 2.2em;
 }
 
-.bg_Content{
-    background-color: green;
-}
-
-.bg_SMA{
-    background-color: blue;
-}
-
-
-.bgb{
-    background-color: black;
-}
-
 .subform_wrapper{
 
     margin: 0 auto;
@@ -734,9 +783,6 @@ hr {
     margin: 0 auto;
 }
 
-.full_width{
-    width: 100%;
-}
 
 .fixed_blog h1{
     font-weight: 800;
@@ -870,8 +916,6 @@ hr {
 }
 
 
-
-
 .story_figuur{
     width: 100%;
     height: auto;
@@ -963,42 +1007,12 @@ hr {
     text-align: center;
 }
 
-/*
-.navbar-collapse.collapse {
-  display: block!important;
-}
-
-.navbar-nav>li, .navbar-nav {
-  float: left !important;
-}
-
-.navbar-nav.navbar-right:last-child {
-  margin-right: -15px !important;
-}
-
-.navbar-right {
-  float: right!important;
-}
-*/
 
 
 
-.navbar-toggle {
-     z-index:8;
-}
-
-
-#menutoggle{
-    font-size: 2.5em;
-    font-weight: 400;
-    text-transform: uppercase;
-    position: absolute;
-    top: 45%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    right: 7%;
-}
+/***********************/
+/***********************/
+/************************/
 
 #footer{
     background-color: black;
@@ -1028,39 +1042,18 @@ hr {
     margin: 0 auto;     
 }
 
-.articles_body{
-    background-color: white;
+
+
+
+.affoe1{
+    width: 40%;
 }
 
-.stories_body{
-    background-color: white;
+.affoe2{
+    width: 60%;
+    vertical-align: middle;
+    padding: 10% 10% 10% 10%;
 }
-
-.articles_a div li a{
-    color: black !important;
-}
-
-.stories_a div li a{
-    color: black !important;
-}
-
-.phoneh1{
-    font-size: 300%;
-}
-
-.phoneh2{
-    font-size: 500%;
-}
-
-.phonearrow{
-    position: absolute;
-    bottom: 4%;
-}
-
-.wrap_content_inner{
-    padding: 5em 0 5em 0;
-}
-
 
 
 @media (max-width: 767px){
@@ -1070,6 +1063,11 @@ body{
 .overlay_img{
     background-image: image-url('ipadhome2.jpg'); 
 }
+
+.overlay_img_diensten{
+    background-image: image-url('fonaedit3.png'); 
+}
+
 .wrapper_home{
     padding: 0em 0 5em 0;
 }
@@ -1078,4 +1076,27 @@ body{
 .col-dienst{
     padding: 2em 0 2.8em 0;
 }
+
+
+
+.wrapper_inner_contact{
+    width: 100%;
+}
+
+.full_size_img{
+    width: 100%;
+    height: auto;
+}
+
+.affoe1{
+    width: 100%;
+}
+.affoe2{
+    width: 100%;
+}
+
+.overlay_black{
+    opacity: 0.3;
+}
+
 }

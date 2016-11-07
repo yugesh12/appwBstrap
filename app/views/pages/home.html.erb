@@ -31,9 +31,10 @@
 
 
 
-<article class="container_fluid col-12" id="wrapper_diensten"> 
-        <div class="col-12 wrapper_inner wrap_content_inner">
-            <h2>Onze Diensten</h2><br>
+<article class="container_fluid bgt1" id="wrapper_diensten"> 
+        <div class="wrap_content_inner">
+            <h3>Digitale Transformatie</h3>
+            <h2>Onze diensten</h2><br><br><br>
             <p class="tekst">Wij gebruiken onze kennis om een op maat gemaakte online business strategie te formuleren die gebouwd is voor de lange termijn.</p>
 
             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-dienst">
@@ -60,57 +61,63 @@
 
     <div class="clearfix"></div>
 
-    <div class="box black_box" id="dienst_box"><%= link_to " > ", services_path, class: "pijl"%><%= link_to "Meer informatie", services_path, class: "link_tekst1 link_black"%></div>
+    <div class="box black_box"><%= link_to " > ", services_path, class: "pijl"%><%= link_to "Meer informatie", services_path, class: "link_tekst1 link_black"%></div>
 
 </article>
 
-<article class="container_fluid col-12 wrapper_home" id="wrapper_klant_ervaring">   
-        <div class="col-12 wrapper_inner">
-            
+<article class="container_fluid wrapper_home bgt2" id="wrapper_klant_ervaring">              
     
-                    <figure class="col-lg-6 col-md-6 col-sm-6 col-xs-12 ">
-                    <button onmousedown="toggleOverlay()"><%= image_tag('ytIMG.png', class: "full_size")%></button>
-                    </figure> 
+            <figure onmousedown="toggleOverlay()" class="affoe1 pull-left">
 
+            <%= image_tag('ytIMG.png', class: "full_size_img")%>
+            </figure>
 
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wrap_content_inner">
-                    <h2>Hoe onze klanten ons ervaren</h2>
+         
+            <div class="affoe2 pull-right">
+                    <h3>Klant Ervaringen</h3>
+                    <h2>Cases</h2>
                     <br><br>
                     <p class="tekst text_shade">XXX van XXXX doet XXXX. Als startende ondernemer met een passie voor XXXX wist hij al lang wat hij wilde doen. <br><br>Zijn passie is de drijvende kracht achter XXXX, wij waren de katalysator.<br><br>
                     </p>
                     <br><br>
                     <div class="box black_box"><%= link_to " > ", stories_path, class: "pijl"%><%= link_to "Meer Verhalen", stories_path, class: "link_tekst3 link_black"%></div>
-            
             </div>
-
-        </div>
-    <div class="clearfix"></div>
-</article>
-
-<article class="container_fluid col-12 wrapper_home" id="wrapper_blog">   
-
-    <div class="col-6 wrapper_inner">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wrap_content_inner">
-            <h2><%= @article_last.title%></h2>
-            <br><br>
-            <p class="tekst">
-                <%= @article_last.content%><br><br>
-            </p>
-            <br><br>
-            <div class="box black_box"><%= link_to " > ", articles_path, class: "pijl"%><%= link_to "Lees meer", article_path(@article_last), class: "link_tekst2 link_black"%></div>
-        </div>
-    </div>
-      <figure class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><%= image_tag(@article_last.image.url(:medium), class: "full_size")%></figure> 
     <div class="clearfix"></div>
 </article>
 
 
+<article class="container_fluid wrapper_home bgt1" id="wrapper_blog">              
+    
+            <figure class="affoe1 pull-right">
 
-<article class="container_fluid col-12 wrapper_home" id="wrapper_over_ons">   
-        <div class="col-12 wrapper_inner">
+            <%= image_tag(@article_last.image.url(:medium), class: "full_size_img")%>
+            </figure>
 
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 wrap_content_inner">
-                    <h2>Over Ons</h2>
+         
+            <div class="affoe2 pull-left">
+                <h3>Het laatste artikel</h3>
+                <h2><%= @article_last.title%></h2>
+                <br><br>
+                <p class="tekst">
+                    <%= @article_last.content%><br><br>
+                </p>
+                <br><br>
+                <div class="box black_box"><%= link_to " > ", articles_path, class: "pijl"%><%= link_to "Lees meer", article_path(@article_last), class: "link_tekst2 link_black"%></div>
+            </div>
+    <div class="clearfix"></div>
+</article>
+
+
+<article class="container_fluid wrapper_home bgt2" id="wrapper_over_ons">              
+    
+            <figure class="affoe1 pull-left">
+
+            <%= image_tag('missie.gif', class: "full_size_img")%> 
+            </figure>
+
+         
+            <div class="affoe2 pull-right">
+                <h2>Over Ons</h2>
                     <br><br>
                     <p class="tekst">
 
@@ -119,14 +126,6 @@
                     </p>
                     <br><br>
                     <div class="box black_box"><%= link_to " > ", pages_over_ons_path, class: "pijl"%><%= link_to "Meer Over Ons", pages_over_ons_path, class: "link_tekst4 link_black"%></div>
-
             </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                    <figure>
-                    <%= image_tag('missie.gif', class: "full_size")%>              </figure> 
-            </div>
-
-        </div>
     <div class="clearfix"></div>
 </article>
