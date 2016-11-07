@@ -202,10 +202,15 @@ body {
     height: 35em;
 }
 
-.wrap_content_inner{
-    padding: 5em 0 5em 0;
+.wrap_hor{
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
+.wrap_vert{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
 /***********************************************************
 ************************************************************
 ***********************************************************
@@ -381,7 +386,8 @@ h4{
 }
 
 h5{
-    font-size: 2.5em;
+    font-size: 2em;
+    font-weight: 400; 
 }
 
 h6{
@@ -1056,6 +1062,11 @@ iframe{
 }
 
 
+.hrrood{
+    color: #880015;
+    background-color: #880015;
+}
+
 @media (max-width: 767px){
 body{
     font-size: 0.85em;
@@ -1068,9 +1079,6 @@ body{
     background-image: image-url('fonaedit3.png'); 
 }
 
-.wrapper_home{
-    padding: 0em 0 5em 0;
-}
 
 
 .col-dienst{
@@ -1078,10 +1086,6 @@ body{
 }
 
 
-
-.wrapper_inner_contact{
-    width: 100%;
-}
 
 .full_size_img{
     width: 100%;
@@ -1097,6 +1101,10 @@ body{
 
 .overlay_black{
     opacity: 0.3;
+}
+
+.smallhome{
+    margin-top: 45em;
 }
 
 }
