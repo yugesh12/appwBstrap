@@ -4,16 +4,12 @@
 
 <%= paginate @articles %>
 
-<article class="container_fluid" id="wrapper_diensten"> 
+<article class="container_fluid full_width padding-bottom8"> 
 <p class="notice"><%= notice %></p>
 <p class="alert"><%= alert %></p>
 <% a=0 %>
 <% @articles.each do |article| %> 
         <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
-
-            <div class="col-lg-1 col-lg-offset-1 col-md-1 hidden-sm hidden-xs bg_<%=article.tag%> normal_blog">
-            
-            </div>
 
             <div class="col-lg-9  col-md-11 col-sm-12 col-xs-12 normal_blog">
             <figure class="overlay_figure">
@@ -49,7 +45,7 @@
                 <div class="hidden-lg hidden-md col-sm-12 col-xs-12 ">
                     <div class="subscribe_container bgb">
                         <h1 class="white alignright">Subscribe voor Exclusieve content.</h1>
-                        <div class="white subform_wrapper"><%=render('sub_form')%><br></div>
+                        <div class="white subform_wrapper"><%=render('shared/sub_form')%><br></div>
                     </div>
                     <ul class="social_links">
                         <li class="sm_list"><button class="sm_button_bw"><%= link_to image_tag("icon_bw_tw.png"), 'https://www.twitter.com' %></button></li>

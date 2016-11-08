@@ -30,10 +30,6 @@ body {
 }
 
 
-.bgw{
-    background-color: white;
-}
-
 .bgb{
     background-color: black;
 }
@@ -42,17 +38,13 @@ body {
     color: red;
 }
 
-.h50{
+.h50p1{
     height: 50em;
+    z-index: 1;
 }
 
 .black{
     color: black !important;
-}
-
-.redu{
-    border-color: red !important;
-    border-bottom: solid;
 }
 
 .white{
@@ -65,10 +57,6 @@ body {
     height: 100%;
 }
 
-.full_size_img{
-    width: 100%;
-    height: auto;
-}
 
 .full_size_img{
     height: inherit;
@@ -79,11 +67,6 @@ body {
     clear: both;
 }
 
-
-
-.full_width{
-    width: 98.5%;
-}
 
 .full_width{
     width: 100%;
@@ -102,17 +85,12 @@ body {
     display: inline-block;
 }
 
-.althead{
-    font-style: italic;
-    text-align: center;    
-}
-
 
 .alignright{
     text-align: right;
 }
 
-.mp{
+.margin_padding_footer{
     margin: 0; 
     padding: 0;
 }
@@ -125,28 +103,11 @@ body {
 ***********************************************************/
 
 
-.wrapper_home{
-    position: relative;
-    width: 100%;
-}
-
-.wrapper_home_landing{
-    height: 100%;
-    position: relative;
-    width: 100%;
-}
-
 .container_home_landing{
     position: relative;
     width: inherit;
 }
 
-
-.wrapper_inner{
-    width: 100%;
-    margin: 0 auto;  
-
-}
 
 .wrapper_inner_contact{
     width: 90%;
@@ -166,20 +127,6 @@ body {
     transform: translate(-50%, -50%);
 }
 
-#wrapper_diensten{
-    position: relative;
-    width: 100%;
-    padding-bottom: 8em;
-}
-
-
-
-
-.wrapper_alt_landing{
-    height: 50%;
-    position: relative;
-    width: 100%;
-}
 
 .col-centered{
     float: none;
@@ -192,15 +139,6 @@ body {
     padding: 4.5em 0 5em 0;
 }
 
-
-
-.wrapper_inner_blog{
-    overflow: hidden;
-}
-
-.wrapper_inner_blog figure{
-    height: 35em;
-}
 
 .wrap_hor{
     padding-left: 10%;
@@ -257,19 +195,6 @@ li#contact:hover{
     background-color: orange;
 }
 
-li#contact2{
-    border-color:orange;
-    border-style: solid;
-    padding: 0 0.8em 0 0.8em;
-    font-weight: 400;
-    background-color: orange;
-} 
-
-li#contact2:hover{
-    padding: 0 0.8em 0 0.8em;
-    font-weight: 400;
-    background-color: orange;
-}
 
 .silverHover a:hover{
     color: silver !important;
@@ -295,11 +220,6 @@ li#diensten a:hover, li#leer a:hover, li#nieuw a:hover, li#Verhalen a:hover{
     letter-spacing: 0.04em;
 }
 
-ul#middle{
-    letter-spacing: 0.07em;
-    font-size: 1.7em;
-    font-weight: 400;
-}
 
 ul#right{
     font-weight: 300;
@@ -674,15 +594,6 @@ div.black_box:hover{
 }
 
 
-.overlay_red{
-    background-color: red;
-    width: inherit;
-    height: inherit;
-    opacity: 0.8;
-    position: absolute;
-    z-index: -1;
-}
-
 .overlay_figure:hover{
     background-color: white;
     opacity: 0.7;
@@ -779,7 +690,6 @@ iframe{
 }
 
 .subform_wrapper{
-
     margin: 0 auto;
     width: 85%;
 }
@@ -860,13 +770,6 @@ iframe{
 }
 
 
-.zm1{
-    z-index: -1;
-}
-
-.zp1{
-    z-index: 1;
-}
 
 .test_wrap{
     width: 100%;
@@ -911,10 +814,6 @@ iframe{
 .back_cont img{
     height: auto;
     width: 100%;
-}
-
-.list_red:hover{
-    color: red !important;
 }
 
 .wrapper_article{
@@ -992,16 +891,10 @@ iframe{
     margin-top: 2em;
 }
 
-.wrap_stories{
-    width: 100%;
-    margin: 0 auto;
+.padding-bottom8{
     padding-bottom: 8em;
 }
 
-.max_full_width{
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 .index_story_title{
     margin-top: 0;
