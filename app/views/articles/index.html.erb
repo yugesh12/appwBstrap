@@ -9,9 +9,9 @@
 <p class="alert"><%= alert %></p>
 <% a=0 %>
 <% @articles.each do |article| %> 
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12"">
 
-            <div class="col-lg-9  col-md-11 col-sm-12 col-xs-12 normal_blog">
+            <div class="col-lg-9 col-md-11 col-sm-12 col-xs-12 normal_blog col-centered">
             <figure class="overlay_figure">
                 <%= link_to image_tag(article.image.url(:medium)), article_path(article)%>
             </figure>
