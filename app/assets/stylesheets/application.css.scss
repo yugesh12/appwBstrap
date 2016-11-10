@@ -73,7 +73,7 @@ body {
 }
 
 .row1{
-    width: 49.5%;
+    width: 49.4%;
     display: inline-block;
 }
 
@@ -873,6 +873,7 @@ iframe{
 }
 
 
+
 .figure_multiple{
     height: 25em;
     width: 100%;
@@ -930,15 +931,21 @@ iframe{
 }
 
 .footerlist li{
-    font-size: 1.5em;
+    font-size: 1.7em;
     font-weight: 400;
     padding: 0.5em 0 0.5em 0;
+    list-style-type: none;
+}
+
+.footerlist button{
+    max-width: 4em;
+    overflow: hidden;
 }
 
 #wrapper_inner_footer{
     width: 90%;
-    max-width: 95em;
-    margin: 0 auto;     
+    max-width: 85em;
+    margin: 0 auto;    
 }
 
 
@@ -999,5 +1006,12 @@ body{
 .smallhome{
     margin-top: 45em;
 }
+
+.subscribe_container h1{
+    padding-left: 0.22em;
+    font-size: 4.5em;
+}
+
+
 
 }

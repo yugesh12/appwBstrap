@@ -1,18 +1,19 @@
            
 
 
-<div class="subform_container">
+<div class="subform_container" >
+<h6 class="white">Subscribe voor Exclusieve content.</h6>
  <%= form_for :subscription, url: subscribe_path do |subscribe_form| %>
                         
 
-        <span class="inline">
+        <span class="inline row1">
         <%= subscribe_form.label :name, 'Name:'%><br>
-        <%= subscribe_form.text_field :name, class: "black" %><br>
+        <%= subscribe_form.text_field :name, class: "black full_width" %><br>
 		</span>                
        	
-       	<span class="inline">                
+       	<span class="inline row1">                
        	<%= subscribe_form.label :email, 'E-mail:'%><br>
-        <%= subscribe_form.text_field :email, class: "black" %><br>
+        <%= subscribe_form.text_field :email, class: "black full_width" %><br>
         </span>                             
         <%= subscribe_form.submit "Send", class: "black" %><br>
                       
