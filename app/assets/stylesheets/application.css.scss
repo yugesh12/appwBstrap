@@ -669,6 +669,7 @@ div#videoBox {
     height: 0;
 }
 
+
 iframe{
     position: absolute;
     width: 100%;
@@ -1011,6 +1012,36 @@ iframe{
 .hrrood{
     color: #880015;
     background-color: #880015;
+}
+
+@media(min-width: 937px){
+
+div#videoBox {
+    display: none;
+    position: fixed;
+    z-index: 4;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: transparent;
+    color: #000;
+    width: 84em;
+    height: 51.45em;
+    padding: 0 0 0 0;
+    }
+
+
+iframe{
+    position: absolute;
+    width: 84em;
+    height: 47.25em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 }
 
 @media (max-width: 767px){
