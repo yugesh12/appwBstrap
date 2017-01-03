@@ -27,19 +27,17 @@
 
             <%= link_to 'Back', stories_path, class: "black silverHover" %></p><br>
 
-                <h3 class="header_article"><%= @story.title %></h3><hr class="article_show_hr">
+                <h3 class="header_article"><%= @story.title %></h3>
+                <p class="bold"><%= @story.created_at.strftime("%d %b. %Y") %> - <%= @story.consumeTime %> min read</p>
+                <hr class="article_show_hr">
 
                 <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
-                <figure class="user_avatar"><%= image_tag(@story.image.url(:medium))%></figure>
+                <figure class="user_avatar"><%= image_tag("mijtest.jpg")%></figure>
                 </div>
 
-                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-4 pull-right">
                     <h6>by YSR <br><br>Twitter handle</h6>
                 </div>     
-
-                <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5 col-lg-offset-2 col-md-offset-2 col-sm-offset-2">
-                    <p class="bold"><%= @story.created_at.strftime("%d %b. %Y") %> - <%= @story.consumeTime %> min read</p>
-                </div> 
                 
                 <p class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><br><%= @story.content %></p>
                           
