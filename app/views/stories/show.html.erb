@@ -22,10 +22,11 @@
             <p class="pull-right">
             <%= link_to 'Destroy', story_path(@story), method: :delete, data: { confirm: 'Are you sure?' }, class: "black" %>
 
-            <%= link_to 'Edit', edit_story_path(@story), class: "black" %>
+            <%= link_to 'Edit', edit_story_path(@story), class: "black" %></p>
             <% end %>
 
-            <%= link_to 'Back', stories_path, class: "black silverHover" %></p><br>
+            <br>
+            <p class="pull-right"><%= link_to 'Back', stories_path, class: "black silverHover" %></p>
 
                 <h3 class="header_article"><%= @story.title %></h3>
                 <p class="bold"><%= @story.created_at.strftime("%d %b. %Y") %> - <%= @story.consumeTime %> min read</p>
