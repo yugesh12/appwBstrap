@@ -1,21 +1,31 @@
 <%= render 'shared/navbar/navbarNormal' %>
 
-<article class="container_fluid" id="wrapper_diensten"> 
+<article class="container_fluid">
+    <div class="full_width overons_landing">
+        <h2 class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-centered white over_onsh2">Peoneer staat voor digitale marketing en innovatie</h2>
+    </div> 
 
-         <div class="overlay_white"></div>  
-        <div class="col-12 wrapper_inner">
-                    <h2>Onze Missie</h2><br>
-                    <p class="tekst">
-                        Ons werk bestaat uit kennis verspreiden over online business. Op onze pagina met <a href="#">artikelen</a> publiceren wij adviezen over branding, social media en onze andere specialiteiten. Stel gerust een vraag op Facebook, Instagram, twitter of per mail. Wij helpen u binnen een dag verder.<br><br>
+    <div class="full_width" style="height: 30em;">
+        <figure class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="height: inherit; border-style: solid; overflow: hidden;"><%=image_tag('missie.gif')%>
+        </figure>
 
-                        Wij nemen regelmatig start-ups als pro-bono klant aan als wij in hun visie geloven. Op onze pagina met <a href="#">verhalen</a> kun je hier voorbeelden van vinden. Niet zeker of wij iets voor jou kunnen betekenen? Vraag een gratis eerste consult aan.
-                    </p>
-                    <br><br>
-            <div class="box black_box"><a class="pijl" href="#"> > </a><a class="link_tekst link_black" href=#>Ons Werk</a></div>
-            </div><br><br><br>
+        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12 container_overons_gm">
+            <h2 class="inline overonsh3">test1 titel</h2>
+            <p class="inline ">test1 tekst</p><br>
+            <h2 class="inline overonsh3">test2 titel</h2>
+            <p class="inline ">test2 tekst</p>            
+        </div>
+    </div>
 
-    <div class="clearfix"></div>
+    <div class="full_width overons_landing2">
+        <h2 class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-centered white over_onsh2">Peoneer staat voor digitale marketing en innovatie</h2>
+    </div> 
 
+    <div class="wrap_hor wrap_vert">
+        <h3>Geen standaard oplossingen</h3>
+        <h2>Nieuwe Puzzels</h2><br><br><br><br>
+        <figure><%= image_tag('overons.png', class: 'full_width') %></figure>
+    </div><br>
 
-</article>
+</article>  
 

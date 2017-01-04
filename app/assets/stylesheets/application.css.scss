@@ -309,6 +309,10 @@ h2 {
     text-transform: uppercase;
 }
 
+.over_onsh2{
+    line-height: 1em;
+}
+
 h3 {
     font-size: 3em; 
     line-height: 1em;
@@ -953,8 +957,22 @@ iframe{
 }
 
 
+.overons_landing{
+    height: 42em;
+    padding-top: 20em;
+    background-color: red;
+}
 
+.overons_landing2{
+    height: 32em;
+    padding-top: 15em;
+    background-color: orange;
+}
 
+.container_overons_gm{
+    padding: 5em 7em 5em 7em;
+    height: 30em;
+}
 /***********************/
 /***********************/
 /************************/
@@ -1106,6 +1124,13 @@ p.diensten_tekst{
 
 .wrap_hor{
     padding: 0 7.5% 0 7.5%;
+}
+
+.overons_landing2{
+    height: 32em;
+    padding-top: 10em;
+    background-color: orange;
+    margin-top: 30em;
 }
 
 }
