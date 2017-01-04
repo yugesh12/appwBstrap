@@ -9,14 +9,14 @@
 <p class="alert"><%= alert %></p>
 <% a=0 %>
 <% @articles.each do |article| %> 
-        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 npm">
 
-            <div class="col-lg-9 col-md-11 col-sm-12 col-xs-12 normal_blog col-centered">
+            <div class="col-lg-9 col-md-11 col-sm-12 col-xs-12 normal_blog col-centered npm">
             <figure class="overlay_figure">
                 <%= link_to image_tag(article.image.url(:medium)), article_path(article)%>
             </figure>
 
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 npm">
                     <h6 class="blog_tag">#<%= article.tag %></h6>
                     <h2 class="blog_titel silverHover"><%= link_to article.title, article_path(article), class: "black"%></h2>
                     <hr>
@@ -26,7 +26,7 @@
                    
                     
                 </div>
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><br>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 npm"><br>
                     <%= social_share_button_tag(article.title, :popup => "true")%><br>
 
                     <p class="blog_preview"><%= article.created_at.strftime("%d %b. %Y") %> - <%= article.consumeTime %> min read</p><br>
@@ -42,7 +42,7 @@
         </div>  
         <% a=a+1; %>
         <% if a==1 %>
-                <div class="hidden-lg hidden-md col-sm-12 col-xs-12 ">
+                <div class="hidden-lg hidden-md col-sm-12 col-xs-12 npm">
                     <div class="subscribe_container bgb">
                         <h1 class="white alignright">Subscribe voor Exclusieve content.</h1>
                         <div class="white subform_wrapper"><%=render('shared/sub_form')%><br></div>
