@@ -311,7 +311,9 @@ h2 {
 
 .over_onsh2{
     line-height: 1em;
+    margin: 2em 0 2em 0;
 }
+
 
 h3 {
     font-size: 3em; 
@@ -322,6 +324,11 @@ h3 {
 
 .h3_diensten{
     text-transform: uppercase;
+}
+
+
+.overonsh3{
+    width: 6em;
 }
 
 h4{
@@ -962,21 +969,18 @@ iframe{
 
 
 .overons_landing{
-    height: 42em;
-    padding-top: 20em;
     background-color: red;
 }
 
 .overons_landing2{
-    height: 32em;
-    padding-top: 15em;
     background-color: orange;
 }
 
-.container_overons_gm{
-    padding: 5em 7em 5em 7em;
-    height: 30em;
+.overons_landinge{
+    height: 9em;
+        background-color: red;
 }
+
 /***********************/
 /***********************/
 /************************/
@@ -1130,15 +1134,22 @@ p.diensten_tekst{
     padding: 0 7.5% 0 7.5%;
 }
 
-.overons_landing2{
-    height: 32em;
-    padding-top: 10em;
-    background-color: orange;
-    margin-top: 30em;
+
+.creaana{
+    padding: 2% 5% 2% 5%;
 }
 
 }
 
 .li_dienst{
     list-style-type: none;    
+}
+
+.creaana{
+    width: 100%;
+}
+
+.puzzel{
+    max-width: 45em;
+    width: 100%;
 }

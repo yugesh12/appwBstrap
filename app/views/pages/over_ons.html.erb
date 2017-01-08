@@ -1,37 +1,51 @@
 <%= render 'shared/navbar/navbarNormal' %>
 
 <article class="container_fluid">
-    <div class="full_width overons_landing">
-        <h2 class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-centered white over_onsh2">Peoneer staat voor transformatie, innovatie en vooruitgang</h2>
+    
+    <div class="full_width overons_landinge">
+            
     </div> 
 
-    <div class="full_width" style="height: 30em;">
-        <figure class="col-lg-4 col-md-4 col-sm-4 col-xs-12" style="height: inherit; border-style: solid; overflow: hidden;"><%=image_tag('missie.gif')%>
+    <div class="full_width overons_landing">
+        <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white over_onsh2 wrap_hor wrap_vert">Peonier staat voor transformatie, innovatie en vooruitgang</h2>
+            <div class="clearfix"></div>        
+    </div> 
+
+
+    <div class="full_width wrap_vert">
+        <figure class="col-lg-4 col-md-5 col-sm-5 col-xs-12"><%=image_tag('creaana.png', class: "creaana")%>
         </figure>
 
-        <div class="col-lg-8 col-md-8 col-sm-8 hidden-xs container_overons_gm">
-            <h2 class="inline overonsh3">Visie</h2>
-            <p class="inline">test1 tekst</p><br>
-            <h2 class="inline overonsh3">Doel</h2>
-            <p class="inline ">test2 tekst</p>            
+        <div class="col-lg-7 col-lg-offset-1 col-md-7 col-sm-7 hidden-xs wrap_vert">
+            <h2 class=" inline overonsh3">Doel</h2>
+            <p class="overonsp inline">Ons doel is onze klanten tot digitale leiders maken</p><br>
+            <h2 class=" inline overonsh3 ">Visie</h2>
+            <p class="overonsp inline ">Onze visie is creatief, innovatief en op maat gemaakt.</p><br>
+            <h2 class="inline overonsh3">Uitvoering</h2>
+            <p class="overonsp inline">Onze uitvoering is pragmatisch en gebaseerd op data analyse.</p>             
         </div>
 
-        <div class="hidden-lg hidden-md hidden-sm col-xs-12 container_overons_gm">
-            <h2 class="overonsh3">Visie</h2>
-            <p> test1 tekst</p><br>
+        <div class="hidden-lg hidden-md hidden-sm col-xs-12 wrap_vert wrap_hor">
             <h2 class="overonsh3">Doel</h2>
-            <p>test2 tekst</p>            
+            <p >Ons doel is onze klanten tot digitale leiders maken</p><br>
+            <h2 class="overonsh3">Visie</h2>
+            <p>Onze visie is creatief, innovatief en op maat gemaakt.</p><br>
+            <h2 class="overonsh3">Uitvoering</h2>
+            <p>Onze uitvoering is pragmatisch en gebaseerd op data analyse.</p>            
         </div>
+            <div class="clearfix"></div>
     </div>
 
     <div class="full_width overons_landing2">
-        <h2 class="col-lg-7 col-md-8 col-sm-10 col-xs-12 col-centered white over_onsh2">Onze werkwijze: Partnership, Educator, Innovator, Cijfematige Analyse</h2>
+        <h2 class="col-lg-12 col-md-12 col-sm-12 col-xs-12 white over_onsh2 wrap_hor wrap_vert">Onze werkwijze: Partnership, Educator, Innovator.</h2>
+            <div class="clearfix"></div>        
     </div> 
 
-    <div class="wrap_hor wrap_vert"><br><br>
+    <div class="wrap_vert" style="width: 80%; margin: 0 auto;">
         <h3>Nieuwe Puzzels Vergen</h3>
-        <h2>Nieuwe Oplossingen</h2><br><br><br><br>
-        <figure><%= image_tag('overons.png', class: 'full_width') %></figure><br><br>
+        <h2 style="line-height: 1em;">Nieuwe Oplossingen</h2>
+        <figure class="full_width"><%= image_tag('overons.png', class: 'puzzel') %></figure>
+        <div class="clearfix"></div>
     </div>
 
 </article>  
