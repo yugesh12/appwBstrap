@@ -630,7 +630,7 @@ div.black_box:hover{
     height: inherit;
     position: absolute;
     z-index: -2;
-    background-image: image-url('fonaedit.png'); 
+    background-image: image-url('DigitalDiensten3.jpg'); 
     background-repeat: no-repeat;
     background-size: cover; 
     background-position: center center;
@@ -1079,7 +1079,7 @@ body{
 }
 
 .overlay_img_diensten{
-    background-image: image-url('fonaedit3.png'); 
+    background-image: image-url('DigitalDiensten2.jpg'); 
 }
 
 
@@ -1152,4 +1152,8 @@ p.diensten_tekst{
 .puzzel{
     max-width: 45em;
     width: 100%;
+}
+
+.ztesting{
+    z-index: -5;
 }
