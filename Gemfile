@@ -38,6 +38,8 @@ gem 'aws-sdk', '~> 2'
 
 gem 'rmagick'
 
+gem 'rails_responsive_images'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

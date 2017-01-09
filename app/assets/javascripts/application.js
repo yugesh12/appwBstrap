@@ -12,6 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery-picture
 //= require turbolinks
 //= require social-share-button
 //= require_tree .
