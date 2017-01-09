@@ -58,5 +58,6 @@ namespace :deploy do
 end
 
 before 'deploy:assets:precompile', 'build_responsive_images'
-task :build_responsive_images, roles: :app do
-  run "cd #{release_path} && RAILS_ENV=#{rails_env} bundle exec rake rails_responsive_images"
+	task :build_responsive_images, roles: :app do
+  		run "cd #{release_path} && RAILS_ENV=#{rails_env} bundle exec rake rails_responsive_images"
+end
