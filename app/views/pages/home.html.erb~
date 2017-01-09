@@ -124,7 +124,7 @@
                     <br><br>
                     <p class="tekst">
 
-                        Peonier is uw partner in tranformatie, innovatie en voorutigang. Wij verspreiden informatie over de bedrijfsvoering anno 2017. Bekijk onze <%= link_to "publicaties", articles_path, class: "black"%> over innovatie, social media en marketing. Stel gerust een vraag op <%= link_to "Facebook", articles_path, class: "black"%>, <%= link_to "Instagram", articles_path, class: "black"%>, <%= link_to "Twitter", articles_path, class: "black"%> of via het <%= link_to "Contactformulier", anchor: "form-tekst" %>. Wij helpen u binnen een dag verder.<br><br>
+                        Peonier is uw partner in tranformatie, innovatie en voorutigang. Wij verspreiden informatie over de bedrijfsvoering anno 2017. Bekijk onze <%= link_to "publicaties", article_path, class: "black"%> over innovatie, social media en marketing. Stel gerust een vraag op <%= link_to "Facebook", article_path, class: "black"%>, <%= link_to "Instagram", article_path, class: "black"%>, <%= link_to "Twitter", article_path, class: "black"%> of via het <%= link_to "Contactformulier", anchor: "form-tekst" %>. Wij helpen u binnen een dag verder.<br><br>
 
                     </p>
                     <br><br>

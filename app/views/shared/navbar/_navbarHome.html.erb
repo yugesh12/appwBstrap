@@ -10,7 +10,7 @@
                     <div class="hidden-xs">
                         <ul id="right" class="nav navbar-nav pull-right">
                             <li id="diensten" class="middle"><%=link_to 'Diensten', anchor: "wrapper_diensten" %></li>
-                            <li id="leer" class="middle"><%=link_to 'Blog', articles_path %></li>
+                            <li id="leer" class="middle"><%=link_to 'Publicaties', articles_path %></li>
                             <li id="Verhalen" class="middle"><%=link_to 'Cases', anchor: "wrapper_klant_ervaring" %></li>
                             <% if user_signed_in? %><li id="sign_out" class="middle"><%= link_to 'Sign out', destroy_user_session_path, method: :delete %></li><% end %>
 
