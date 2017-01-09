@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   get 'pages/home', to: redirect('/')
   get 'pages/over_ons'
   get 'contact', to: 'messages#new', as: 'contact'
-  get '/assets/*filepath/:filename', to: 'rails_responsive_images/assets#responsive_image'
+
   post 'contact', to: 'messages#create'
   post 'subscribe', to: 'subscriptions#create'
   resources :services

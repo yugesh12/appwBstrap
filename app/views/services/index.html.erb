@@ -22,7 +22,12 @@
 <article class="container full_width bgt1 headlines_wrap">
 <h2 class="headlines">De wereld anno 2016</h2>
 
-<figure><%= image_tag('trends.png', alt: 'awesome', responsive: true, class: "full_size") %></figure>
+<picture class="full_size">
+  <source media="(max-width: 767px)" srcset="/assets/responsive_images_767/trends.png">
+  <source media="(max-width: 991px)" srcset="/assets/responsive_images_991/trends.png">
+  <source media="(max-width: 1999px)" srcset="/assets/responsive_images_1999/trends.png">
+  <img width="2568" height="878" alt="awesome" src="/assets/trends.png" class="full_size">
+</picture>
 
 </article>
 
